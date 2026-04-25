@@ -3,11 +3,11 @@
 # **automate-ERA5-downloads**
 ### **Need to download a bunch of climate variables from ERA5?** :earth_americas: :computer: :world_map:
 
-##### This code automates the downloading of multiple ERA5 reanalysis climate variables using the Copernicus Data Store API. Run this code, go to sleep, and you can wake up with all the files you need for analysis, forcing models, making maps, etc.
+##### This code automates the downloading of multiple ERA5 reanalysis climate variables using the Climate Data Store API. Run this code, go to sleep, and you can wake up with all the files you need for analysis, forcing models, making maps, etc.
 ---
 ### **How to use this code:**
 
-(1) Register an account at ECMWF. This will allow you access to download data from the Copernicus Data Store. 
+(1) Register an account at ECMWF. This will allow you access to download data from the Climate Data Store. 
 > https://cds.climate.copernicus.eu/
 
 (2) Set-up the CDS API key. After loggging into your account, click your name at the upper right, click Your **Profile**, then scroll down to **API key**. <br> 
