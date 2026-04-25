@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19768645.svg)](https://doi.org/10.5281/zenodo.19768645)
+
 # **automate-ERA5-downloads**
 ### **Need to download a bunch of climate variables from ERA5?** :earth_americas: :computer: :world_map:
 
