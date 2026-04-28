@@ -21,7 +21,7 @@ Example .cdsapirc file:
 
 (4) Install cdsapi Python library and Python, if not already installed. Here are the instructions for Windows, Mac, and Linux: 
 > https://cds.climate.copernicus.eu/how-to-api <br> 
-```py
+```
 $ pip install "cdsapi>=0.7.7"
 ```
 (5) Open the Python script `fetch_era5_data.py`. This is the API request. Edit the `area` bounding box for latitudes and longitudes North, West, South, and East in line 42 to select where on the globe you want to download data from. <br> 
@@ -56,7 +56,7 @@ year_batches = [
 > ℹ️ *Note: As written, this code downloads accumulated variables (total precipitation, longwave radiation, as shortwave radiation) every hour. All other variables (i.e. air temperature, wind speed, surface pressure) are downloaded at a 6-hourly time step.*
 
 (7) Once the file settings are changed how you want, run the `automate_fetch.py` script in your terminal. 
-```py
+```
 python ./automate_fetch.py
 ```
 (8) Updates will print out as the code runs so you can keep track of what's downloading. Each file will be saved in the same directory the Python scripts are located in as follows: 
