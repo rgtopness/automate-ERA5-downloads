@@ -62,6 +62,11 @@ python ./automate_fetch.py
 (8) Updates will print out as the code runs so you can keep track of what's downloading. Each file will be saved in the same directory the Python scripts are located in as follows: 
 > Example file download name: ERA5_2024_2025_hourly_sp.nc
 
+(9) (Optionally) Run the `concatenate_files.py` script in your terminal to combine multiple one-year files of ERA5 variables into one file holding all years. Combined files will be written to a new folder called `combined_files`.
+```
+python ./concatenate_files.py
+```
+
 ## **References:**
 Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, A., Soci, C., Dee, D., Thépaut, J-N. (2023): ERA5 hourly data on single levels from 1940 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS), DOI: 10.24381/cds.adbb2d47 (Accessed on 25-04-2026).
 
